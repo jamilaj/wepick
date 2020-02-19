@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+.cp-slidein-body * {
+    font-family: "PT Sans" !important;
+}
+.slideup_phone_number .cp-slidein {
+	max-width: 360px !important;
+}
+.slideup_phone_number .cp-description{
+	margin-top: -40px !important;
+    text-align: right !important;
+}
+.cp-btn-flat.cp-slide-edit-btn{ 
+min-width: 60px  !important;
+	border-radius: 50% !important;
+	
+	background-size: 50px 50px !important;
+    color: transparent;
+}
+.cp-free-widget .cp-form-container{
+	margin-top: -10px !important;
+}
+.slideup_btncontact{
+	color: #fff !important;
+    background: #21889d !important;
+    text-transform: uppercase;
+    letter-spacing: 1px !important;
+    padding: 15px 20px !important;
+    line-height: normal !important;
+    font-family: "Open sans",sans-serif !important;
+    font-weight: 700;
+    font-size: 15px !important;
+    display: inline-block !important;
+    margin: 20px 0 8px !important;
+    width: 100%;
+	border-radius: 5px;
+    text-align: center !important;
+}
+.cp-free-widget .cp-info-container {
+    padding: 0 35px 0 !important;
+}
+.slideup-phone-number{
+	font-size: 24px !important;
+    letter-spacing: 1px;
+    font-weight: 600 !important;
+    margin-left: 10px;
+    line-height: 33px !important;
+}
+.cp_appelezLe{
+	font-size: 17px !important;
+    margin-left: 10px;
+    font-weight: 100;
+}
+.appelezContenaire{
+	
+}
+.cp-slidein .cp-form-container {display: block !important;}
+.cp-btn-flat {
+background-image: url("./images/phone-white.png") no-repeat center center !important;	
+	margin-bottom:10px !important;
+}
+.txtEtRappeller{
+font-family: open sans;
+    width: fit-content;
+    margin-left: 28%;
+    color: #000 !important;	
+}
+.cp-title-container{
+    margin-left: -28px !important;
+    margin-top: -14px !important;	
+}
+.iconTelephone{
+	float: left;
+    border-right: 1px solid #dadada;
+    /* padding-right: 30px; */
+    padding: 10px;
+    padding-left: 5px;
+}
+
+@media (max-width: 800px){
+.cp-free-widget .cp-image-container, .txtEtRappeller{
+		display:none !important
+	}
+.cp-free-widget .cp-right-contain {
+   /* float: right !important*/
+	width: 100% !important;
+    text-align: center !important;
+    padding-left: 60px !important;
+	}
+	.cp-title-container .cp-title span{
+		text-align:center !important;
+		font-size: 24px !important;
+    margin-top: 20px !important;
+	}
+	.cp-submit span{
+		font-size: 10px !important;
+		line-height: 25px !important;
+	}
+
+.cp-btn-flat.cp-slide-edit-btn{
+	padding: 23px !important;	
+	}
+}
+@media (max-width: 400px){
+	.iconTelephone{
+		display:none
+	}
+	.slideup_btncontact{
+		font-size:12px !important
+	}
+	.cp-free-widget .cp-form-container {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+}

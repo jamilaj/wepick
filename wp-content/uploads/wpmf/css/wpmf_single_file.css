@@ -1,0 +1,34 @@
+
+                        .wpmf-defile{
+                            background: #444444 url(../images/download.png)
+                             no-repeat scroll 5px center !important;
+                            color: #ffffff !important;
+                            border: none !important;
+                            border-radius: 0 !important;
+                            box-shadow: none !important;
+                            text-shadow: none !important;
+                            transition: all 0.2s ease 0s !important;
+                            float: left !important;
+                            margin: 7px !important;
+                            padding: 10px 20px 10px 60px !important;
+                            text-decoration: none !important;
+                        }
+                        
+                        .wpmf-defile:hover{
+                            background: #888888 url(../images/download.png)
+                             no-repeat scroll 5px center !important;
+                            box-shadow: 1px 1px 12px #ccc !important;
+                            color: #ffffff !important;
+                        }
+                        
+                        .wp-block-file .wp-block-file__button {
+                            color: #ffffff !important;
+                            background: #444444 !important;
+                            box-shadow: none !important;
+                        }
+                        
+                        .wp-block-file__button:hover {
+                            background: #888888 !important;
+                            color: #ffffff !important;
+                        }
+                        
