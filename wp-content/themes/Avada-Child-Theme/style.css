@@ -149,6 +149,7 @@ span.fontw.bold_s {
   width: 25%;
   padding: 10px;
  text-align: center !important;
+	position:relative;
 }
 .container-fluid {
        padding-top: 30px !important;
@@ -167,17 +168,61 @@ img.img4 {
     -moz-box-shadow: 3px 0px 31px -11px rgba(0,0,0,0.75);
     box-shadow: 3px 0px 31px -11px rgba(0,0,0,0.75);
 }
-.p_img  {
-    font-size: 42px !important;
+.p_img1  {
+    font-size: 42px ;
     line-height: normal;
+	padding-top: 14px;
 }
 .col1:before {
     content: "";
     position: absolute;
-    left: 94px;
-    top: 0px;
+    left: 69px;
+    top: -75px;
     display: block;
     background: url(http://localhost/wetest/wp-content/uploads/2020/02/test-wepick-marrakech-1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 87%;
+    background-position: bottom left;
+    z-index: -1 !important;
+}
+
+.col2:before {
+    content: "";
+    position: absolute;
+    left: 69px;
+    top: -75px;
+    display: block;
+    background: url(http://localhost/wetest/wp-content/uploads/2020/02/test-wepick-marrakech-2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 87%;
+    background-position: bottom left;
+    z-index: -1 !important;
+}
+
+
+.col3:before {
+    content: "";
+    position: absolute;
+    left: 69px;
+    top: -75px;
+    display: block;
+    background: url(http://localhost/wetest/wp-content/uploads/2020/02/test-wepick-marrakech-3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 87%;
+    background-position: bottom left;
+    z-index: -1 !important;
+}
+
+.col4:before {
+    content: "";
+    position: absolute;
+    left: 69px;
+    top: -75px;
+    display: block;
+    background: url(http://localhost/wetest/wp-content/uploads/2020/02/test-wepick-marrakech-4.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 87%;
@@ -205,7 +250,12 @@ a.a_c1:hover {
 .div_sav.center {
         margin-top: -56px !important;
 }
-
+.div_sav1.center {
+    padding-top: 53px !important;
+}
+.ytb_div {
+    padding-top: 87px !important;
+}
 /*home content 2*/
 h2.h2_c2.blanc.upper.knot {
     font-size: 160px;
@@ -240,6 +290,10 @@ h2.h2_c2.blanc.upper.knot {
     margin-top: -20px;
 }
 
+
+.fusion-rollover {display:none !important}
+
+
 /*home content 4*/
 .h2_c2 {
     font-size: 100px;
@@ -261,21 +315,91 @@ a.a_c2 {
 	 font-size: 16px;
     letter-spacing: 4px;
     line-height: 20px;
-    background: #3a6166;
+    background: #fff;
     padding: 10px 30px;
     border-radius: 22px !important;
-    color: #fff !important;
+    color: #3a6166 !important;
     -webkit-box-shadow: 3px 0px 31px -11px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 0px 31px -11px rgba(0,0,0,0.75);
     box-shadow: 3px 0px 31px -11px rgb(255, 255, 255);
 	
 }
 a.a_c2:hover {
-    background: #000;
+    background: #000;color:#fff !important;
      
 }
 .div_s.center {
     padding-top: 40px !important;
+}
+
+.txt_footer {
+    font-size: 24px !important;
+}
+.img_foot {
+    /* padding: 5px !important; */
+    display: inline-flex;
+}
+img.hvr-icon {
+    padding: 5px !important;
+}
+.fusion-footer-copyright-area {
+    
+    border-color: #3b6065 !important;
+}
+.cop-f {
+    font-size: 24px !important;
+}
+
+
+
+footer.fusion-footer-widget-area.fusion-widget-area {
+    margin-bottom: -25px !important;
+}
+
+.cont1:before {
+    content: "";
+    width: 54.4%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, rgba(59, 96, 101, 0.87), rgb(59, 96, 101));
+}
+div#sliders-container:after {
+    content: "";
+    width: 40.1%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -49px;
+    background: #3b6065;
+}
+.fusion-fullwidth:after{
+    content: "";
+    width: 49px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background:  rgb(59, 96, 101);
+}
+.fusion-fullwidth:before {
+    content: "";
+    width: 49px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(59, 96, 101);
+}
+
+.fusion-footer {
+    margin-top: -40px !important;
 }
 /*pages style*/
 .max_div_pg {max-width: 680px;margin: 0 auto !important;}
@@ -402,6 +526,16 @@ a.a_c2:hover {
 
 /*footer style*/
 @media only screen and (min-width: 801px){
+	.contact-head span.menu-text {
+    background: white !important;
+    padding: 10px 20px !important;
+    border-radius: 16px !important;
+    color: #000 !important;
+}
+.contact-head span.menu-text:hover {
+    background: #000 !important;   color: #fff !important;
+     
+}
     /***********css to widgets if menu has two section in footer***********/
     /*.fusion-footer .fusion-columns .fusion-column:nth-child(1), .fusion-footer .fusion-columns .fusion-column:nth-child(3) {width: 30% !important;padding: 10px 0% !important;}
     .fusion-footer .fusion-columns .fusion-column:nth-child(2) {width: 40% !important;padding: 10px 2% !important;}*/
@@ -480,8 +614,8 @@ input.wpcf7-not-valid, select.wpcf7-not-valid{border: 1px solid red !important;b
 
     /*tidio + toTop*/
     #tidio-chat-iframe{bottom: 50px !important;}
-    #toTop {background-color: #5cd240 !important;}
-    #toTop:hover{background-color: #37393a !important;}
+    #toTop {background-color: #3b6065 !important;}
+    #toTop:hover{background-color: #000 !important;}
 
     /*centrer le texte avec iframe facebook*/
     .minh_fb_txt .fusion-column-wrapper{min-height: 500px !important;}
@@ -494,7 +628,48 @@ input.wpcf7-not-valid, select.wpcf7-not-valid{border: 1px solid red !important;b
     #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;}
 }
 
+
+@media only screen and (max-width: 1000px){
+	.fusion-main-menu>ul>li>a{  font-size: 14px !important;}
+	.div_p2 {
+    max-width: 384px !important;
+    margin-left: 0px !important;
+	padding-left: 50px !important;
+}
+}	
+@media only screen and (max-width: 900px){
+	.fusion-main-menu>ul>li>a{  font-size: 12px !important;}
+}		
 @media only screen and (max-width: 800px){
+	
+	.span_c1.knot { font-size: 100px !important;  line-height: 0px !important;}
+	.h1_c1.knot {  font-size: 61px !important;}
+	.div_p1 {  margin-left: 0px !important;  padding-top: 50px !important;}
+
+	.div_p2 {  margin-left: 0px !important;  padding-top: 62px !important;}
+	h2.h2_c2.blanc.upper.knot {   font-size: 94px !important;}	
+	.h2_c2 {    font-size: 60px !important; margin-bottom: -38px !important;}
+	
+	.column4 {   width: 50% !important;}
+	.col1:before ,.col2:before,.col3:before,.col4:before{   left: 28% !important;}
+	img.fusion-standard-logo {  padding-top: 20px !important;}
+	.cont1 {padding-top: 50px !important;}
+	.fusion-fullwidth:after,.fusion-fullwidth:before{  width: 10px !important;}
+	.col1_c1:after {
+    content: "";
+    width: 10px;
+    height: 112%;
+    position: absolute;
+    right: -31px;
+    top: -89px;
+    /* bottom: 0; */
+    background: rgb(58, 97, 102);
+}
+	
+	
+	a.fusion-icon.fusion-icon-search {
+    display: none !important;
+}
 .txtEtRappeller{display:none}
     /*style mobile for header*/
     .fusion-header {padding-top: 30px !important;padding-bottom: 30px !important;padding-left: 15px !important;padding-right: 15px !important;}
@@ -575,6 +750,25 @@ input.wpcf7-not-valid, select.wpcf7-not-valid{border: 1px solid red !important;b
 
 
 @media only screen and (max-width: 497px){
+	
+	.div_c1 {columns: 1 !important;}
+	.div_p2 {   padding-top: 10px !important;    padding-left: 0px !important;}
+	.span_c1.knot {    font-size: 70px !important;}
+	.col1:before, .col2:before, .col3:before, .col4:before {  left: 16% !important;}
+	.p_img1 {    font-size: 32px !important;}
+	h2.h2_c2.blanc.upper.knot {  font-size: 60px !important;}
+	.h2_c2 {   font-size: 39px !important;   margin-bottom: -26px !important;}
+	.p_img {    font-size: 18px !important;}
+	a.a_c1 {   font-size: 12px !important;  padding: 10px 22px !important;}
+	
+	.h1_c1.knot {   line-height: 63px !important;}
+	.span_c1.knot {    line-height: 60px !important;}
+	
+	#realisations {       padding-top: 60px !important;}
+	.fusion-post-content a {   font-size: 24px !important;		line-height: 50px !important;}
+	
+	
+	
     /*cacher slider home*/
     .home #sliders-container{display:none !important;}
 

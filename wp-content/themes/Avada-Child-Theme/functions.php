@@ -65,11 +65,8 @@ add_action('login_head', 'my_login_head');
 
 /* ----------Footer ---------- */
 
-function My_footer() {
-    echo '<a target="_blank" href="http://www.coherence-communication.fr/"><img src="http://www.coherence-communication.fr/wp-content/uploads/2017/04/Logo-site.png" class="center login-logo-footer"></a>';
-}
 
-add_action('login_footer', 'My_footer');
+ 
 
 
 /*----------- changement du favicon ---------*/
@@ -110,16 +107,8 @@ function pr_disable_admin_notices() {
 
         //fusion_options-primary_color
 
- function hook_stickeyMobile() {
-  echo "<script>
-      jQuery(document).ready(function() { 
-      if (window.matchMedia('(max-width: 800px)').matches){
-        jQuery( \".fusion-header\").append('<div class=\"respo_slidin\"><div class=\"slid_in\"><img src=\"https://www.auto-bilan-dordogne.fr/wp-content/uploads/2019/11/AUTOSUR-CONTROLE-TECHNIQUE-PERIGUEUX-sidebar.png\"></div><div class=\"allcontent\"><br><div class=\"sth_head_titre width-slidin\"><span class=\"sth_head_titre_1\">Une Question ?</span><br/><span class=\"sth_head_titre_2\">Contactez-nous.</span></div><div class=\"sth_ct_infos width-slidin\"><a class=\"sth_ct_tel\" href=\"tel: ".fusion_get_option('telephone_1')."\"><i class=\"fa fa-mobile\" aria-hidden=\"true\"></i> ".fusion_get_option('telephone_1')."</a><br /><span class=\"sth_ct_adr\"><i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i> ".fusion_get_option('gmap_address')."</span></div><div class=\"sth_ct_infos width-slidin\">  <a class=\" sth_btn_contact btn btn-primary\" data-toggle=\"collapse\" href=\"#collapseSticky\"> + Horaires d\'ouverture</a> <div class=\"collapse\" id=\"collapseSticky\"> <div class=\" card-body\"> <b>- DU LUNDI AU SAMEDI : </b><br > 7H30 | 18H30 <br >  SANS INTERRUPTION </div></div>  </div><div class=\"width-slidin\"><a class=\"sth_btn_contact\" href=\"".home_url()."/contact/\">formulaire de contact</a></div><br></div></div>');} 
-     });
-  </script>";
-}
-add_action('wp_footer', 'hook_stickeyMobile');
-//require_once 'popup.php';
+  
+ //require_once 'popup.php';
 require_once 'coherence_options.php';
 
 
