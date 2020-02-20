@@ -622,13 +622,18 @@ input.wpcf7-not-valid, select.wpcf7-not-valid{border: 1px solid red !important;b
 }
 
 
+@media only screen and (max-width: 1025px){.fusion-fullwidth:after ,.fusion-fullwidth:before{  width: 15px !important;}}
 
+@media only screen and (max-width: 895px)  and (min-width: 801px){
+	.col4:before { top: -115px !important;}
+}
 
 @media only screen and (max-width: 860px){ 
     #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;}
 }
-
-
+@media only screen and (max-width: 1040px){
+	div#sliders-container:after {  width: 42.1% !important;}
+}
 @media only screen and (max-width: 1000px){
 	.fusion-main-menu>ul>li>a{  font-size: 14px !important;}
 	.div_p2 {
@@ -658,7 +663,7 @@ input.wpcf7-not-valid, select.wpcf7-not-valid{border: 1px solid red !important;b
 	.col1_c1:after {
     content: "";
     width: 10px;
-    height: 112%;
+    height: 123%;
     position: absolute;
     right: -31px;
     top: -89px;
@@ -780,6 +785,13 @@ input.wpcf7-not-valid, select.wpcf7-not-valid{border: 1px solid red !important;b
     .fusion-logo img{max-width: 200px !important;}
 }
 
+@media only screen and (max-width: 416px){
+	.col4:before { top: -110px !important;}
+}
+@media only screen and (max-width: 374px){
+	.col4:before { top: -74px !important;}
+}
+ 
 
 /** style Cookie notice **/
 #cookie-notice .cn-button { background: #9400D3 !important; transition: .35s }
